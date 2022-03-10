@@ -1,10 +1,13 @@
 
 import './App.css';
+import Navbar from './components/Navbar';
+import FootBallCard from './components/footballCard/FootBallCard'
 
 function App() {
   return (
     <div className="App">
-      <span>helloo</span>
+      <Navbar />
+      <FootBallCard></FootBallCard>
     </div>
   );
 }
