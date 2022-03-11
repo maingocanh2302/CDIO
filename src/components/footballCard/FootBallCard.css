@@ -1,5 +1,30 @@
+.productCard{
+    width: 250px;
+    height: 350px;
+    /* background-color: rgb(211, 204, 195); */
+    box-shadow: 0 2px 20px rgb(190, 190, 190);
+    border-radius: 3px;
+}
+
+img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+h2, h3{
+    font-size: 12px;
+}
+
+
 .productCard__body--describe{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.productCard__body--additional{
+    display: flex;
+    justify-content: left;
 }

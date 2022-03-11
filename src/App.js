@@ -1,7 +1,7 @@
 
 import './App.css';
 import Navbar from './components/Navbar';
-import FootBallCard from './components/footballCard/FootBallCard'
+import FootBallCard from './components/footBallCard/FootBallCard'
 
 function App() {
   return (
